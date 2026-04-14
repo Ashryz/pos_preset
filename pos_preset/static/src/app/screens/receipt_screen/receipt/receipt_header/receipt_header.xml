@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-name="presetReceipt" t-inherit="point_of_sale.ReceiptHeader" t-inherit-mode="extension">
+        <xpath expr="//div[hasclass('cashier')]" position="before">
+            <div  class="pt-2 text-center">
+                <span>
+                    <t t-out="props.data.preset_id.name"/>
+                </span>
+            </div>
+        </xpath>
+    </t>
+</templates>

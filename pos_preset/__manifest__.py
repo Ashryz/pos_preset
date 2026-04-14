@@ -29,8 +29,10 @@
         'point_of_sale._assets_pos': [
             'pos_preset/static/src/app/pos_store_create_order_patch.js',
             'pos_preset/static/src/app/pos_store_patch.js',
-            'pos_preset/static/src/app/screens/product_screen/control_buttons_method_patch.js',
-            'pos_preset/static/src/app/screens/product_screen/preset_button_template.xml',
+            'pos_preset/static/src/app/screens/product_screen/control_buttons/control_buttons_method_patch.js',
+            'pos_preset/static/src/app/screens/product_screen/control_buttons/preset_button_template.xml',
+            'pos_preset/static/src/app/screens/receipt_screen/receipt_screen.js',
+            'pos_preset/static/src/app/screens/receipt_screen/receipt/receipt_header/receipt_header.xml',
         ],
     },
     'installable': True,
